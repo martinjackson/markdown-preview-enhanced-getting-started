@@ -1,0 +1,215 @@
+<svg width="790pt" height="660pt" viewBox="0.00 0.00 790.00 660.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 656)">
+<title>%3</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-656 786,-656 786,4 -4,4"></polygon>
+<text text-anchor="start" x="8" y="-632" font-family="Times,serif" font-size="20.00">Entity-Relationship diagram (condensed)</text>
+<!-- player -->
+<g id="node1" class="node"><title>player</title>
+<polygon fill="#d0e0d0" stroke="none" points="356.5,-324.5 356.5,-477.5 426.5,-477.5 426.5,-324.5 356.5,-324.5"></polygon>
+<polygon fill="none" stroke="black" points="356.5,-449 356.5,-477 426.5,-477 426.5,-449 356.5,-449"></polygon>
+<text text-anchor="start" x="367.5" y="-460.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">player</text>
+<polygon fill="none" stroke="black" points="356.5,-424 356.5,-449 426.5,-449 426.5,-424 356.5,-424"></polygon>
+<text text-anchor="start" x="361.5" y="-433.8" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">player_id</text>
+<polygon fill="none" stroke="black" points="356.5,-399 356.5,-424 426.5,-424 426.5,-399 356.5,-399"></polygon>
+<text text-anchor="start" x="361.5" y="-407.8" font-family="Helvetica,sans-Serif" font-size="14.00">full_name</text>
+<polygon fill="none" stroke="black" points="356.5,-374 356.5,-399 426.5,-399 426.5,-374 356.5,-374"></polygon>
+<text text-anchor="start" x="361.5" y="-382.8" font-family="Helvetica,sans-Serif" font-size="14.00">team</text>
+<polygon fill="none" stroke="black" points="356.5,-349 356.5,-374 426.5,-374 426.5,-349 356.5,-349"></polygon>
+<text text-anchor="start" x="361.5" y="-357.8" font-family="Helvetica,sans-Serif" font-size="14.00">position</text>
+<polygon fill="none" stroke="black" points="356.5,-324 356.5,-349 426.5,-349 426.5,-324 356.5,-324"></polygon>
+<text text-anchor="start" x="361.5" y="-332.8" font-family="Helvetica,sans-Serif" font-size="14.00">status</text>
+</g>
+<!-- team -->
+<g id="node2" class="node"><title>team</title>
+<polygon fill="#d0e0d0" stroke="none" points="715,-417.5 715,-520.5 774,-520.5 774,-417.5 715,-417.5"></polygon>
+<polygon fill="none" stroke="black" points="715.5,-492 715.5,-520 774.5,-520 774.5,-492 715.5,-492"></polygon>
+<text text-anchor="start" x="726" y="-503.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">team</text>
+<polygon fill="none" stroke="black" points="715.5,-467 715.5,-492 774.5,-492 774.5,-467 715.5,-467"></polygon>
+<text text-anchor="start" x="720.5" y="-476.8" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">team_id</text>
+<polygon fill="none" stroke="black" points="715.5,-442 715.5,-467 774.5,-467 774.5,-442 715.5,-442"></polygon>
+<text text-anchor="start" x="720.5" y="-450.8" font-family="Helvetica,sans-Serif" font-size="14.00">city</text>
+<polygon fill="none" stroke="black" points="715.5,-417 715.5,-442 774.5,-442 774.5,-417 715.5,-417"></polygon>
+<text text-anchor="start" x="720.5" y="-425.8" font-family="Helvetica,sans-Serif" font-size="14.00">name</text>
+</g>
+<!-- player&#45;&#45;team -->
+<g id="edge1" class="edge"><title>player--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M434.811,-419.752C448.621,-424.36 464.212,-428 479,-428 479,-428 479,-428 670,-428 682.858,-428 695.561,-432.845 706.697,-439.203"></path>
+<text text-anchor="start" x="699.697" y="-428.003" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="434.811" y="-408.552" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- play_player -->
+<g id="node6" class="node"><title>play_player</title>
+<polygon fill="#ececfc" stroke="none" points="525,-215.5 525,-368.5 624,-368.5 624,-215.5 525,-215.5"></polygon>
+<polygon fill="none" stroke="black" points="525.5,-340 525.5,-368 624.5,-368 624.5,-340 525.5,-340"></polygon>
+<text text-anchor="start" x="530.5" y="-351.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">play_player</text>
+<polygon fill="none" stroke="black" points="525.5,-315 525.5,-340 624.5,-340 624.5,-315 525.5,-315"></polygon>
+<text text-anchor="start" x="530.5" y="-324.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">gsis_id</text>
+<polygon fill="none" stroke="black" points="525.5,-290 525.5,-315 624.5,-315 624.5,-290 525.5,-290"></polygon>
+<text text-anchor="start" x="530.5" y="-299.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">drive_id</text>
+<polygon fill="none" stroke="black" points="525.5,-265 525.5,-290 624.5,-290 624.5,-265 525.5,-265"></polygon>
+<text text-anchor="start" x="530.5" y="-274.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">play_id</text>
+<polygon fill="none" stroke="black" points="525.5,-240 525.5,-265 624.5,-265 624.5,-240 525.5,-240"></polygon>
+<text text-anchor="start" x="530.5" y="-249.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">player_id</text>
+<polygon fill="none" stroke="black" points="525.5,-215 525.5,-240 624.5,-240 624.5,-215 525.5,-215"></polygon>
+<text text-anchor="start" x="530.5" y="-223.8" font-family="Helvetica,sans-Serif" font-size="14.00">team</text>
+</g>
+<!-- player&#45;&#45;play_player -->
+<g id="edge13" class="edge"><title>player--play_player</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M434.936,-375.444C459.387,-360.72 490.431,-342.025 516.934,-326.064"></path>
+<text text-anchor="start" x="491.934" y="-314.864" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="434.936" y="-364.244" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- game -->
+<g id="node3" class="node"><title>game</title>
+<polygon fill="#ececfc" stroke="none" points="8,-153 8,-431 96,-431 96,-153 8,-153"></polygon>
+<polygon fill="none" stroke="black" points="8,-403 8,-431 96,-431 96,-403 8,-403"></polygon>
+<text text-anchor="start" x="30.5" y="-414.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">game</text>
+<polygon fill="none" stroke="black" points="8,-378 8,-403 96,-403 96,-378 8,-378"></polygon>
+<text text-anchor="start" x="13" y="-387.8" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">gsis_id</text>
+<polygon fill="none" stroke="black" points="8,-353 8,-378 96,-378 96,-353 8,-353"></polygon>
+<text text-anchor="start" x="13" y="-361.8" font-family="Helvetica,sans-Serif" font-size="14.00">start_time</text>
+<polygon fill="none" stroke="black" points="8,-328 8,-353 96,-353 96,-328 8,-328"></polygon>
+<text text-anchor="start" x="13" y="-336.8" font-family="Helvetica,sans-Serif" font-size="14.00">week</text>
+<polygon fill="none" stroke="black" points="8,-303 8,-328 96,-328 96,-303 8,-303"></polygon>
+<text text-anchor="start" x="13" y="-311.8" font-family="Helvetica,sans-Serif" font-size="14.00">season_year</text>
+<polygon fill="none" stroke="black" points="8,-278 8,-303 96,-303 96,-278 8,-278"></polygon>
+<text text-anchor="start" x="13" y="-286.8" font-family="Helvetica,sans-Serif" font-size="14.00">season_type</text>
+<polygon fill="none" stroke="black" points="8,-253 8,-278 96,-278 96,-253 8,-253"></polygon>
+<text text-anchor="start" x="13" y="-261.8" font-family="Helvetica,sans-Serif" font-size="14.00">finished</text>
+<polygon fill="none" stroke="black" points="8,-228 8,-253 96,-253 96,-228 8,-228"></polygon>
+<text text-anchor="start" x="13" y="-236.8" font-family="Helvetica,sans-Serif" font-size="14.00">home_team</text>
+<polygon fill="none" stroke="black" points="8,-203 8,-228 96,-228 96,-203 8,-203"></polygon>
+<text text-anchor="start" x="13" y="-211.8" font-family="Helvetica,sans-Serif" font-size="14.00">home_score</text>
+<polygon fill="none" stroke="black" points="8,-178 8,-203 96,-203 96,-178 8,-178"></polygon>
+<text text-anchor="start" x="13" y="-186.8" font-family="Helvetica,sans-Serif" font-size="14.00">away_team</text>
+<polygon fill="none" stroke="black" points="8,-153 8,-178 96,-178 96,-153 8,-153"></polygon>
+<text text-anchor="start" x="13" y="-161.8" font-family="Helvetica,sans-Serif" font-size="14.00">away_score</text>
+</g>
+<!-- game&#45;&#45;team -->
+<g id="edge2" class="edge"><title>game--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M101.889,-435.408C102.621,-438.29 103.326,-441.156 104,-444 117.051,-499.042 104.843,-516.096 122,-570 127.607,-587.615 122.514,-607 141,-607 141,-607 141,-607 670,-607 709.224,-607 727.585,-563.032 736.139,-524.732"></path>
+<text text-anchor="start" x="372" y="-610.8" font-family="Times,serif" font-size="14.00"> home </text>
+<text text-anchor="start" x="729.139" y="-528.532" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="76.8893" y="-439.208" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- game&#45;&#45;team -->
+<g id="edge3" class="edge"><title>game--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M101.068,-435.2C102.055,-438.159 103.033,-441.095 104,-444 120.56,-493.739 88.5763,-556 141,-556 141,-556 141,-556 670,-556 690.564,-556 706.55,-541.642 718.284,-524.591"></path>
+<text text-anchor="start" x="373" y="-559.8" font-family="Times,serif" font-size="14.00"> away </text>
+<text text-anchor="start" x="711.284" y="-528.391" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="101.068" y="-439" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- drive -->
+<g id="node4" class="node"><title>drive</title>
+<polygon fill="#ececfc" stroke="none" points="187,-178 187,-406 258,-406 258,-178 187,-178"></polygon>
+<polygon fill="none" stroke="black" points="187.5,-378 187.5,-406 258.5,-406 258.5,-378 187.5,-378"></polygon>
+<text text-anchor="start" x="203.5" y="-389.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">drive</text>
+<polygon fill="none" stroke="black" points="187.5,-353 187.5,-378 258.5,-378 258.5,-353 187.5,-353"></polygon>
+<text text-anchor="start" x="192.5" y="-362.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">gsis_id</text>
+<polygon fill="none" stroke="black" points="187.5,-328 187.5,-353 258.5,-353 258.5,-328 187.5,-328"></polygon>
+<text text-anchor="start" x="192.5" y="-337.8" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">drive_id</text>
+<polygon fill="none" stroke="black" points="187.5,-303 187.5,-328 258.5,-328 258.5,-303 187.5,-303"></polygon>
+<text text-anchor="start" x="192.5" y="-311.8" font-family="Helvetica,sans-Serif" font-size="14.00">start_field</text>
+<polygon fill="none" stroke="black" points="187.5,-278 187.5,-303 258.5,-303 258.5,-278 187.5,-278"></polygon>
+<text text-anchor="start" x="192.5" y="-286.8" font-family="Helvetica,sans-Serif" font-size="14.00">start_time</text>
+<polygon fill="none" stroke="black" points="187.5,-253 187.5,-278 258.5,-278 258.5,-253 187.5,-253"></polygon>
+<text text-anchor="start" x="192.5" y="-261.8" font-family="Helvetica,sans-Serif" font-size="14.00">end_field</text>
+<polygon fill="none" stroke="black" points="187.5,-228 187.5,-253 258.5,-253 258.5,-228 187.5,-228"></polygon>
+<text text-anchor="start" x="192.5" y="-236.8" font-family="Helvetica,sans-Serif" font-size="14.00">end_time</text>
+<polygon fill="none" stroke="black" points="187.5,-203 187.5,-228 258.5,-228 258.5,-203 187.5,-203"></polygon>
+<text text-anchor="start" x="192.5" y="-211.8" font-family="Helvetica,sans-Serif" font-size="14.00">pos_team</text>
+<polygon fill="none" stroke="black" points="187.5,-178 187.5,-203 258.5,-203 258.5,-178 187.5,-178"></polygon>
+<text text-anchor="start" x="192.5" y="-186.8" font-family="Helvetica,sans-Serif" font-size="14.00">pos_time</text>
+</g>
+<!-- game&#45;&#45;drive -->
+<g id="edge7" class="edge"><title>game--drive</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M104.013,-292C127.938,-292 156.122,-292 178.888,-292"></path>
+<text text-anchor="start" x="153.888" y="-280.8" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="104.013" y="-280.8" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- play -->
+<g id="node5" class="node"><title>play</title>
+<polygon fill="#ececfc" stroke="none" points="349,-32 349,-260 434,-260 434,-32 349,-32"></polygon>
+<polygon fill="none" stroke="black" points="349.5,-232 349.5,-260 434.5,-260 434.5,-232 349.5,-232"></polygon>
+<text text-anchor="start" x="375.5" y="-243.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">play</text>
+<polygon fill="none" stroke="black" points="349.5,-207 349.5,-232 434.5,-232 434.5,-207 349.5,-207"></polygon>
+<text text-anchor="start" x="354.5" y="-216.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">gsis_id</text>
+<polygon fill="none" stroke="black" points="349.5,-182 349.5,-207 434.5,-207 434.5,-182 349.5,-182"></polygon>
+<text text-anchor="start" x="354.5" y="-191.8" font-family="Helvetica,sans-Serif" font-style="italic" text-decoration="underline" font-size="14.00">drive_id</text>
+<polygon fill="none" stroke="black" points="349.5,-157 349.5,-182 434.5,-182 434.5,-157 349.5,-157"></polygon>
+<text text-anchor="start" x="354.5" y="-166.8" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">play_id</text>
+<polygon fill="none" stroke="black" points="349.5,-132 349.5,-157 434.5,-157 434.5,-132 349.5,-132"></polygon>
+<text text-anchor="start" x="354.5" y="-140.8" font-family="Helvetica,sans-Serif" font-size="14.00">time</text>
+<polygon fill="none" stroke="black" points="349.5,-107 349.5,-132 434.5,-132 434.5,-107 349.5,-107"></polygon>
+<text text-anchor="start" x="354.5" y="-115.8" font-family="Helvetica,sans-Serif" font-size="14.00">pos_team</text>
+<polygon fill="none" stroke="black" points="349.5,-82 349.5,-107 434.5,-107 434.5,-82 349.5,-82"></polygon>
+<text text-anchor="start" x="354.5" y="-90.8" font-family="Helvetica,sans-Serif" font-size="14.00">yardline</text>
+<polygon fill="none" stroke="black" points="349.5,-57 349.5,-82 434.5,-82 434.5,-57 349.5,-57"></polygon>
+<text text-anchor="start" x="354.5" y="-65.8" font-family="Helvetica,sans-Serif" font-size="14.00">down</text>
+<polygon fill="none" stroke="black" points="349.5,-32 349.5,-57 434.5,-57 434.5,-32 349.5,-32"></polygon>
+<text text-anchor="start" x="354.5" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">yards_to_go</text>
+</g>
+<!-- game&#45;&#45;play -->
+<g id="edge8" class="edge"><title>game--play</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M104.117,-159.999C114.324,-151.349 126.498,-146 141,-146 141,-146 141,-146 304,-146 315.864,-146 328.643,-146 340.642,-146"></path>
+<text text-anchor="start" x="315.642" y="-134.8" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="104.117" y="-148.799" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- game&#45;&#45;play_player -->
+<g id="edge9" class="edge"><title>game--play_player</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M71.0355,-148.994C84.5149,-75.0097 106.651,-0 141,-0 141,-0 141,-0 461,-0 506.499,-0 540.62,-125.006 558.774,-211.437"></path>
+<text text-anchor="start" x="533.774" y="-200.237" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="64.0355" y="-137.794" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- drive&#45;&#45;team -->
+<g id="edge4" class="edge"><title>drive--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M246.257,-410.251C259.613,-461.499 278.678,-510 303,-510 303,-510 303,-510 670,-510 682.858,-510 695.561,-505.155 706.697,-498.797"></path>
+<text text-anchor="start" x="699.697" y="-487.597" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="221.257" y="-414.051" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- drive&#45;&#45;play -->
+<g id="edge10" class="edge"><title>drive--play</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M266.073,-254.78C288.879,-234.842 317.097,-210.172 340.893,-189.369"></path>
+<text text-anchor="start" x="315.893" y="-178.169" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="266.073" y="-243.58" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- drive&#45;&#45;play_player -->
+<g id="edge11" class="edge"><title>drive--play_player</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M266.409,-292C278.264,-292 291.13,-292 303,-292 303,-292 303,-292 480,-292 491.85,-292 504.544,-292 516.638,-292"></path>
+<text text-anchor="start" x="491.638" y="-280.8" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="266.409" y="-280.8" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- play&#45;&#45;team -->
+<g id="edge5" class="edge"><title>play--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M442.155,-52.5654C452.592,-43.7365 464.827,-38 479,-38 479,-38 479,-38 670,-38 707.621,-38 731.053,-296.478 739.71,-413.096"></path>
+<text text-anchor="start" x="732.71" y="-401.896" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="442.155" y="-41.3654" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- play&#45;&#45;play_player -->
+<g id="edge12" class="edge"><title>play--play_player</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M442.438,-186.282C465.459,-204.851 492.894,-226.981 516.7,-246.183"></path>
+<text text-anchor="start" x="491.7" y="-234.983" font-family="Times,serif" font-size="14.00">0..N</text>
+<text text-anchor="start" x="442.438" y="-175.082" font-family="Times,serif" font-size="14.00">1</text>
+</g>
+<!-- play_player&#45;&#45;team -->
+<g id="edge6" class="edge"><title>play_player--team</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M632.377,-351.924C657.032,-377.9 685.178,-407.554 706.975,-430.519"></path>
+<text text-anchor="start" x="699.975" y="-419.319" font-family="Times,serif" font-size="14.00">1</text>
+<text text-anchor="start" x="632.377" y="-340.724" font-family="Times,serif" font-size="14.00">0..N</text>
+</g>
+<!-- meta -->
+<g id="node7" class="node"><title>meta</title>
+<polygon fill="#fcecec" stroke="none" points="8,-457 8,-585 96,-585 96,-457 8,-457"></polygon>
+<polygon fill="none" stroke="black" points="8,-557 8,-585 96,-585 96,-557 8,-557"></polygon>
+<text text-anchor="start" x="33" y="-568.2" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="16.00">meta</text>
+<polygon fill="none" stroke="black" points="8,-532 8,-557 96,-557 96,-532 8,-532"></polygon>
+<text text-anchor="start" x="13" y="-540.8" font-family="Helvetica,sans-Serif" font-size="14.00">version</text>
+<polygon fill="none" stroke="black" points="8,-507 8,-532 96,-532 96,-507 8,-507"></polygon>
+<text text-anchor="start" x="13" y="-515.8" font-family="Helvetica,sans-Serif" font-size="14.00">season_type</text>
+<polygon fill="none" stroke="black" points="8,-482 8,-507 96,-507 96,-482 8,-482"></polygon>
+<text text-anchor="start" x="13" y="-490.8" font-family="Helvetica,sans-Serif" font-size="14.00">season_year</text>
+<polygon fill="none" stroke="black" points="8,-457 8,-482 96,-482 96,-457 8,-457"></polygon>
+<text text-anchor="start" x="13" y="-465.8" font-family="Helvetica,sans-Serif" font-size="14.00">week</text>
+</g>
+</g>
+</svg>
