@@ -27,10 +27,10 @@ All with live preview and embedded as ***plain text*** in your markdown document
 ![example formula](example-formula.png)
 
 ### Database Entity Relation Diagram
-![Example ER Diagram](example-er-diagram.svg)
+![Example ER Diagram](example-er-diagram.png)
 
 ### Python Generated Graph (embedded in document)
-![Example Python Graph](example-python-graph.svg)
+![Example Python Graph](example-python-graph.png)
 
 ## Installation  
 Atom Settings `Ctrl-,`  
