@@ -107,7 +107,22 @@ you will have to include `{erd cmd:"/home/mjackson/.cabal/bin/erd",` instead of 
 
 
 
-## Code Chunk
+## Code Chunks
+
+### Commands & Keyboard Shortcust
+* `Markdown Preview Enhanced: Run Code Chunk` or <kbd>shift-enter</kbd>      
+execute single code chunk where your cursor is at. (inside the code chunk)   
+
+* `Markdown Preview Enhanced: Run All Code Chunks` or <kbd>ctrl-shift-enter</kbd>   
+execute all code chunks.
+
+### bash shell
+```{bash id:"j0seq8rj"}
+echo "This is Cool~~"
+ls ./
+```
+
+### gnuplot
 ```{gnuplot output:"html", hide:true, id:"iurp4ovh"}
 set term svg
 set title
@@ -123,13 +138,29 @@ plot [-10:10] [-5:3] \
 	(x>3.5 ? x/3-3 : 1/0) with filledcurve y2
 ```
 
-```{puml cmd:"java", args: ["-Djava.awt.headless=true", "-jar", "/home/mjackson/projects/markdown-preview-enhanced/dependencies/plantuml/plantuml.jar", "-pipe", "-tsvg", "-charset", "UTF-8"], output:"html", stdin:true, id:"iutaxxtf", hide:true}
-@startuml
-A --> B
-@enduml
+### gnuplot
+```{gnuplot output:"html", hide:true, id:"itgtulrs"}
+#output svg
+set term svg
+
+set xlabel "x"
+set xlabel "y"
+set key top
+set border 4095
+set xrange [-15:15]
+set yrange [-15:15]
+set zrange [-0.25:1]
+
+set samples 25
+set isosamples 20
+set title "pm3d demo. Radial sinc function. Default options."
+set pm3d; set palette
+#show pm3d#show palette
+splot sin(sqrt(x**2+y**2))/sqrt(x**2+y**2)
+
 ```
 
-
+### erd
 ```{erd hide:true, output:"html", args:["-i", "{input_file}", "-f", "svg"], id:"ithhv4z4"}
 
 [Person]
@@ -147,6 +178,7 @@ country
 Person *--1 Location
 ```
 
+### erd
 ```{erd hide:true, output:"html", args:["-i", "{input_file}", "-f", "svg"], id:"second-erd"}
 
 title {label: "Entity-Relationship diagram (condensed)", size: "20"}
@@ -239,6 +271,7 @@ player      1--* play_player
 
 ```
 
+### python
 ```{python hide:true, matplotlib:true, output:"html", id:"izc8i56g"}
 import matplotlib
 import matplotlib.pyplot as plt
@@ -271,6 +304,7 @@ ax.set_zlabel('Z Label')
 
 plt.show()
 ```
+
 
 ## Typographic replacements
 
